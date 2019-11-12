@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Curso Aula 3 Operadores Matemáticos</title>
+        <body>
+            
+            <script> // quando se usa uma variavel depois da outra pode se colocar uma vitgula var x = 10, y=5;
+                var x = 10;
+                var y = 5;
+                console.log(x,y);
+                var resultado = x + y;
+                console.log(resultado);
+                // se eu tentar somar String o javaScrip acaba concatenando elas sendo assim se eu coloco x = '10', y = 5 result 105
+               var a = 11, b = 5;
+                var resultModulo = a%b;
+                console.log(resultModulo) // retorna o resto de uma divisão
+                // é usado geralmente para efetuar verificação de numeros pares e numeros impares 
+                // vamos supor que queremos incrementar o valor de w 
+                var w = 10, z = 5;
+                w = w + 3;
+                console.log(w);
+                var q = 10 
+                q += 3; // isso é igual a x = x + ; e ainda pode *, /, - e ainda podemos efetuar operações com variaveis como x *= y
+                console.log(q)
+
+            </script>
+        </body>
+    </head>
+</html>
