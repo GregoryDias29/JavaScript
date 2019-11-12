@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Curso Aula 1 Hello Word</title>
+    </head>
+    <body>
+        
+        <script>
+        console.log('hello word');
+        </script>
+    </body>
+</html>
