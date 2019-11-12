@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Curso Aula 2 Variaveis e dados</title>
+        <body>
+            
+            <script>
+            var nome = 'Gregory';
+            var idade = 21;
+            var peso = 70.10;
+            var humano = true;
+
+            var alunos = ['Gregory', 'João', 'Samuel'];
+
+            var aluno = {
+                nome: 'Greory',
+                idade: 21 , 
+                peso: 70.10,
+                humano: true,
+            };
+            var ex = {
+                nome: alunos[0],
+                idade:21,
+                peso: 70.10,
+                humano: false
+            };
+
+            console.log(nome);
+            console.log(alunos)
+            console.log(alunos[2]);
+            console.log(aluno.peso);
+            console.log(ex.nome)
+            console.log(ex.humano);
+            </script>
+        </body>
+    </head>
+</html>
