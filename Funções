@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Curso Aula 4 Funções</title>
+    </head>
+    <body>
+        
+        <script>
+        function soma (num1, num2){ // soma é o nome da função e dentro dos parenteses ficam os parametros a receber e dentro das chaves ficara o corpo da função e o que ela vai executar quando for chamada
+            var resultado = num1 + num2;
+
+            return resultado;
+        }
+        var resultado = soma (1,2); 
+        console.log(resultado);  
+        /* quando se declara a soma e depois os parenteses já esta sendo executado a função foi definido o var resultado em dois luares por que se eu for em cima e tirar o resultado e chamar apenas o soma no console ira apresentar uma mensagem de erro resultado não definido
+        isso ocorre por que quando utilizamos a variavel tipo var ela é visivel somente dentro do escopo ou seja a variavel resultado esta sendo visivel somente dentro da função soma ela não é visivel fora dela  
+        por isso podemos declarar ela novamente fora da função outra coisa dentro dos parenteses pode ser colocado quando paremetros eu quiser e assim como as variaveris não precisa definir que tipo de paremtro estou recebendo e não preciso  informar que tipo de retorno ela retorna */
+        </script>
+    </body>
+</html>
