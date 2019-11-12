@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Curso Aula 5 Condicionais </title>
+    </head>
+    <body>    
+        <script>
+            function retornaSexo (sexo){                
+                if (sexo === 'M'){ //tambem tem como usar ===, o == ele ve se os valores são igual por ex if (1 == '1') vai dar que é igual porem são de tipos diferentes quando usamos === ele vai verificar se os tipos de variaveis são iguais
+                    return  'Masculino';
+                }else if (sexo === 'F'){ // conseguimos concatenar varias condições dentro de um ifs destes 
+                    return 'Feminino';
+                }else{
+                    return 'Outros';
+                }
+            }
+            // quando fazemos muitos ifs dentro da mesma variavel, so verificando iguandade podemos usar o switch case 
+            //fazemos o:
+            function retornaSexoo(sexoo){
+                switch (sexoo) {
+                    case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default : // caso seja como o else
+                        return 'Outros'
+
+                }
+            }
+            var r = retornaSexo ('F');
+            console.log(r);
+            var e = retornaSexo ('M');
+            console.log(e);
+            var s = retornaSexo ('');
+            console.log(s);
+            var u = retornaSexoo ('F')
+            console.log(u);//com switch
+            var l = retornaSexoo ('M')
+            console.log(l);//com switch
+            var tado = retornaSexoo('');
+            console.log(tado); //com switch
+            </script>
+    </body>
+</html>
