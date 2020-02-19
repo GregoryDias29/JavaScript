@@ -1,0 +1,3 @@
+var sid = [{type: 'd', value: 100},{type: 'c', value: 50},{type: 'd', value: 1000},{type: 'c', value: 400},{type: 'd', value: 300},{type: 'c', value: 800},{type: 'd', value: 900},{type: 'c', value: 4500},{type: 'd', value: 5000},{type: 'd', value: 10}]
+
+sid.reduce((unique, item) => {return item.type == 'c' ? unique + item.value : unique - item.value}, 0)
